@@ -1,0 +1,25 @@
+span.label {
+  padding: 3px 7px;
+  font-size: 75%;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: 5px 5px 5px 5px / 5px 5px 5px 5px;
+}
+span.label-default {
+  background-color: rgb(119, 119, 119);
+}
+span.label-primary {
+  background-color: rgb(51, 123, 184);
+}
+span.label-success {
+  background-color: rgb(92, 184, 92);
+}
+span.label-info {
+  background-color: rgb(91, 192, 222);
+}
+span.label-warning {
+  background-color: rgb(240, 173, 78);
+}
+span.label-danger {
+  background-color: rgb(217, 83, 79);
+}

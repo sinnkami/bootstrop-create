@@ -1,0 +1,28 @@
+span.badge {
+  display: inline-block;
+  padding: 3px 7px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  background-color: rgb(119, 119, 119);
+  border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+}
+a {
+  color: rgb(51, 123, 184);
+  text-decoration: none;
+}
+button.btn {
+  border: 1px solid transparent;
+  border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
+}
+button.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgb(51, 123, 184);
+  border-color: rgb(46, 109, 164);
+}
+button:hover.btn-primary {
+  background-color: rgb(46, 109, 164);
+}
+.btn-primary .badge {
+  color: rgb(51, 123, 184);
+  background-color: rgb(255, 255, 255);
+}

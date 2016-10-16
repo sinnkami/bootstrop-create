@@ -1,0 +1,49 @@
+div.progress {
+  height: 20px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+div.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(50, 123, 184);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
+  line-height: 20px;
+}
+
+div.progress-bar.progress-bar-success {
+  background-color: rgb(92, 184, 92);
+}
+div.progress-bar.progress-bar-info {
+  background-color: rgb(91, 192, 222);
+}
+div.progress-bar.progress-bar-warning {
+  background-color: rgb(240, 173, 78);
+}
+div.progress-bar.progress-bar-danger {
+  background-color: rgb(217, 83, 79);
+}
+
+div.progress-bar.progress-bar-striped.active {
+  animation: progress-bar-stripes 2s linear infinite
+}
+@keyframes progress-bar-stripes {
+  from { background-position: 40px 0; }
+  to { background-position: 0 0; }
+}
+
+div.progress-bar-striped {
+  background-image: linear-gradient(
+    45deg,rgba(255,255,255,.15) 25%,
+    transparent 25%,transparent 50%,
+    rgba(255,255,255,.15) 50%,
+    rgba(255,255,255,.15) 75%,
+    transparent 75%,transparent
+  );
+  background-size: 40px 40px;
+}

@@ -1,0 +1,12 @@
+div.well {
+  padding: 19px;
+  background-color: rgb(245, 245, 245);
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 4px 4px 4px 4px / 4px 4px 4px 4px;
+}
+div.well.well-lg {
+  padding: 24px;
+}
+div.well.well-sm {
+  padding: 9px;
+}
